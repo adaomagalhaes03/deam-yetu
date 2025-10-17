@@ -32,7 +32,7 @@ const LandingPage = () => {
             <img
               src={desenvolvimentoLogo}
               alt="Dream Yetu - Desenvolvimento Infantil"
-              className="w-60 md:w-64 lg:w-80 mb-8 drop-shadow-2xl transition-all duration-500"
+              className="w-52 md:w-64 lg:w-72 mb-8 drop-shadow-2xl transition-all duration-500"
             />
             <div>
               <h2 className="text-3xl md:text-4xl lg:text-5xl font-extrabold mb-4 tracking-wide uppercase">
