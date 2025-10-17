@@ -87,11 +87,9 @@ const LandingPage = () => {
         @media (max-width: 1024px) {
           div {
             background-attachment: scroll !important;
-            background-size: cover !important; /* Mostra bem em telas menores */
-          }
+            background-size: cover !important; 
         }
 
-        /* Em telas menores: cada seção ocupa 100% da tela e tudo centralizado */
         @media (max-width: 768px) {
           .min-h-screen {
             flex-direction: column !important;
