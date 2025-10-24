@@ -4,8 +4,8 @@ import linguasLogo from "./assets/dream-yet-11.png";
 import backgroundImage from "./assets/persona.png";
 
 // 👉 substitui estas imagens pelos teus caminhos locais
-import bgDesenvolvimento from "./assets/infantil1.jpeg";
-import bgLinguas from "./assets/comunicacao2.jpeg";
+import bgDesenvolvimento from "./assets/bg-desenvolvimento.jpg";
+import bgLinguas from "./assets/bg-linguas.jpg";
 
 const LandingPage = () => {
   return (
@@ -36,7 +36,7 @@ const LandingPage = () => {
           backgroundRepeat: "no-repeat",
         }}
       >
-        <div className="absolute inset-0 bg-blue-900/35 "></div>
+        <div className="absolute inset-0 bg-blue-900/70"></div>
         <div className="relative flex flex-col items-end text-right max-w-md md:max-w-lg lg:max-w-xl z-10">
           <div className="flex flex-col md:items-end">
             <img
@@ -44,7 +44,7 @@ const LandingPage = () => {
               alt="Dream Yetu - Desenvolvimento Infantil"
               className="w-48 md:w-56 lg:w-60 mb-6 drop-shadow-2xl transition-all duration-500"
             />
-            <h2 className="text-lg md:text-3xl lg:text-3xl font-extrabold mb-4 tracking-wide uppercase">
+            <h2 className="text-lg md:text-3xl lg:text-4xl font-extrabold mb-4 tracking-wide uppercase">
               Métodos Alternativos de Ensino
             </h2>
           </div>
@@ -69,7 +69,7 @@ const LandingPage = () => {
           backgroundRepeat: "no-repeat",
         }}
       >
-        <div className="absolute inset-0  bg-yellow-500/35"></div>
+        <div className="absolute inset-0 bg-yellow-500/70"></div>
         <div className="relative max-w-md md:max-w-lg lg:max-w-xl z-10">
           <div className="flex flex-col md:items-start">
             <img
@@ -77,12 +77,12 @@ const LandingPage = () => {
               alt="Dream Yetu - Serviços e Línguas"
               className="w-44 md:w-56 lg:w-60 mb-6 drop-shadow-2xl transition-all duration-500"
             />
-            <h2 className="text-lg md:text-3xl lg:text-3xl font-extrabold mb-4 tracking-wide uppercase text-white">
+            <h2 className="text-lg md:text-3xl lg:text-4xl font-extrabold mb-4 tracking-wide uppercase text-black">
               Línguas, Formação e Serviços
             </h2>
           </div>
           <button className="bg-gradient-to-r from-yellow-400 to-yellow-600 hover:from-yellow-500 hover:to-yellow-700 text-black px-6 py-3 rounded-full text-sm md:text-base font-bold uppercase shadow-lg hover:shadow-2xl transition-all duration-500">
-            Entrar em Línguas e Conferências
+            Entrar em Serviços e Línguas
           </button>
         </div>
       </section>
