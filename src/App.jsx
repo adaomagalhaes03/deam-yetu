@@ -82,7 +82,7 @@ const LandingPage = () => {
             </h2>
           </div>
           <button className="bg-gradient-to-r from-yellow-400 to-yellow-600 hover:from-yellow-500 hover:to-yellow-700 text-black px-6 py-3 rounded-full text-sm md:text-base font-bold uppercase shadow-lg hover:shadow-2xl transition-all duration-500">
-            Entrar em Serviços e Línguas
+            Entrar em Línguas e Conferências
           </button>
         </div>
       </section>
