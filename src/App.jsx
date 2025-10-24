@@ -42,9 +42,9 @@ const LandingPage = () => {
             <img
               src={desenvolvimentoLogo}
               alt="Dream Yetu - Desenvolvimento Infantil"
-              className="w-48 md:w-56 lg:w-60 mb-6 drop-shadow-2xl transition-all duration-500"
+              className="w-48 md:w-56 lg:w-60  mb-6 drop-shadow-2xl transition-all duration-500"
             />
-            <h2 className="text-lg md:text-3xl lg:text-3xl font-extrabold mb-4 tracking-wide uppercase">
+            <h2 className="text-lg md:text-2xl lg:text-2xl font-extrabold mb-4 tracking-wide uppercase">
               Métodos Alternativos de Ensino
             </h2>
           </div>
@@ -77,7 +77,7 @@ const LandingPage = () => {
               alt="Dream Yetu - Serviços e Línguas"
               className="w-44 md:w-56 lg:w-60 mb-6 drop-shadow-2xl transition-all duration-500"
             />
-            <h2 className="text-lg md:text-3xl lg:text-3xl font-extrabold mb-4 tracking-wide uppercase text-white">
+            <h2 className="text-lg md:text-2xl lg:text-2xl font-extrabold mb-4 tracking-wide uppercase text-white">
               Línguas, Formação e Serviços
             </h2>
           </div>
